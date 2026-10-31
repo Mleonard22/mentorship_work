@@ -15,6 +15,7 @@
     <body>
         <h1>Welcome to Level 1</h1>
         <p>The heading tags go from H1 - H6 like below:</p>
+        <h1>Heading 1</h1>
         <h2>Heading 2</h2>
         <h3>heading 3</h3>
         <h4>heading 4</h4>
@@ -26,8 +27,61 @@
             <p>Div stands for division</p>
         </div>
         <p>
-            this is regular p tag but in <span style="color: brown;">here I am using the span tag</span>, now it's back to regular
+            this is regular p tag but in <span style="color: brown;">here I am using the span tag</span>, now it's back to regular. Keep in mind, <span style="font-family: 'Lucida Sans'; background-color: darkgoldenrod;"> the span tag is a inline element</span>
         </p>
+        <!--This is how I would do a table. Border is just like it sounds for the thickness around element. Not something that is used often-->
+        <h3>Making a Table</h3>
+        <table border="3">
+            <tr>
+                <th>Likes</th>
+                <th>Dislikes</th>
+            </tr>
+            <tr>
+                <td>Books</td>
+                <td>Halloween</td>
+            </tr>
+            <tr>
+                <td>Basketball</td>
+                <td>Scary Movies</td>
+            </tr>
+
+        </table>
+
+        <h3>Making lists</h3>
+        <h4>Unordered</h4>
+        <ul>
+            <li>Item one</li>
+            <li>Item two</li>
+        </ul>
+        <h4>Ordered</h4>
+        <ol>
+            <li>First Item</li>
+            <li>Second Item</li>
+        </ol>
+        
+        <h3>Making a Form</Form></h3>
+        <form>
+            <!-- The "for" in label and the "id" input is how they attach to each other-->
+            <label for="name">Name:</label>
+            <input type="text" id="name" required />
+            <br />
+            <label for="email">Email:</label>
+            <input type="email" required/>
+            <br />
+            <label for="password">Password:</label>
+            <input type="password" id="password" required />
+             <br />
+             <!--Making like a carousel of options to choose from-->
+             <select id="City">
+                <option value="">Please Pick</option>
+                <option value="Detroit">Detroit</option>
+                <option value="Chicago">Chicago</option>
+                <option value="Boston">Boston</option>
+             </select>
+            <br />
+            <button>Sign Up!</button>
+            <p>In HTML, I can do alot of input validation using the attribute like the above, I dont even need to do code in order to do it. I'm sure I will need to do some sort of validation on the backend but I do have frontend validation as well</p>
+        </form>
     </body>
 </html>
 

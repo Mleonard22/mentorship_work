@@ -3,4 +3,8 @@ div > p { /* '>' is for children (div p) would go for all of the p tags inside d
     background-color: aquamarine;
 }
 
-/**/
+/*+ styles only element after the preceding one and ~ does all*/
+
+h2 + p { /*if I did ~ both p tags would be styled*/ 
+    background-color: violet;
+}

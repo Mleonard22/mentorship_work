@@ -23,6 +23,20 @@
   Style the h1 element to change text color.
 */
 
+body {
+  font-family: "arial";
+
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  color: tomato;
+}
+
 /* STEP 3 — Class selectors */
 /*
   Select .card to add padding, border, and width.
@@ -30,13 +44,27 @@
   Select .bio to make the text bold.
 */
 .card {
-  padding: 20;
+  padding: 20px;
   border: 40px;
-  width: 100px;
+  width: 30%;
+  border-radius: 10px;
+  background-color: bisque;
+  box-sizing: border-box;
 }
 
+.role {
+  font-style: italic;
+}
+
+.bio {
+  font-weight:bold;
+}
 /* STEP 4 — ID selector */
 /*
   Select #name to increase font size.
   IDs should be unique.
 */
+
+#name {
+  font-size: 60px;
+}

@@ -1,0 +1,6 @@
+
+div > p { /* '>' is for children (div p) would go for all of the p tags inside div, direct or not*/
+    background-color: aquamarine;
+}
+
+/**/
